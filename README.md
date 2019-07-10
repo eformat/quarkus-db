@@ -8,6 +8,8 @@
 - application.properties
 - TestContainersMariaDbTestResource.java
 
+Can be only one `@QuarkusTestResource(Initializer.class)`, uncomment
+
 ```
 quarkus.datasource.url=jdbc:mariadb://localhost:3306/developer
 quarkus.datasource.driver=org.mariadb.jdbc.Driver
@@ -24,8 +26,12 @@ mvn compile test
 - application.properties
 - TestContainersPostgresqlDbTestResource.java
 
-```
+Can be only one `@QuarkusTestResource(Initializer.class)`, uncomment
 
+
+```
+quarkus.datasource.url=jdbc:postgresql://localhost:5432/developer
+quarkus.datasource.driver=org.postgresql.Driver
 ```
 
 Run tests
