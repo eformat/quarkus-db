@@ -2,3 +2,5 @@
 .mvn
 target/
 *~
+ObjectStore/
+.vscode
