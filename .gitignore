@@ -4,3 +4,7 @@ target/
 *~
 ObjectStore/
 .vscode
+.attach*
+.settings
+.vscode
+.project
